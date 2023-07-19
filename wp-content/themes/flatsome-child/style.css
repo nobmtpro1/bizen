@@ -13,7 +13,7 @@ Version: 3.0
 }
 
 :root {
-  --primary: #e17f26;
+  --primary: #0cbab9;
 }
 
 #comments {
@@ -33,4 +33,28 @@ h6 {
 
 .col {
   padding: 10px 10px;
+}
+
+.banner.has-hover.has-parallax{
+  background-color: var(--primary) !important;
+  padding-top: 200px !important;
+}
+
+.banner.has-hover.has-parallax .entry-header {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.banner.has-hover.has-parallax .entry-header .entry-title{
+  color: white;
+}
+
+.banner.has-hover.has-parallax .entry-header .lead{
+  color: white;
+}
+
+.wpcf7-submit{
+  width: 100%;
 }
